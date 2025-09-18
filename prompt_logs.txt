@@ -1,0 +1,17 @@
+Key Prompt Logs (Structured Development Flow)
+
+1. Expense Entry Screen (UI/UX Design)
+"Design a Jetpack Compose screen for expense entry. It should include: a title field, amount field with ₹ prefix, category dropdown (Staff, Travel, Food, Utility), notes field (max 100 chars), optional receipt image picker, and a submit button that adds the expense into an in-memory list. At the top, display Total Spent Today."
+
+2. Data Modeling (Domain Layer)
+"Write a Kotlin data class for Expense capturing: id, title, amount, category, notes, timestamp, and an optional receipt URI."
+
+3. Repository Layer (Abstraction + Implementation)
+"Define a Repository interface supporting add, list by date, and summary of last 7 days. Provide an InMemoryRepository implementation."
+
+4. State Management (MVVM + Validation)
+"Implement a ViewModel that exposes UI state using StateFlow. It should handle addExpense validations: non-empty title and amount > 0."
+
+5. Navigation Graph (Composable Architecture)
+"Create a Compose Navigation graph with three routes: entry, list, and report. Provide sample preview screens for each destination."
+

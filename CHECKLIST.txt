@@ -1,0 +1,8 @@
+Features checklist (detailed)
+- Expense Entry screen: implemented (Compose)
+- Validations: implemented
+- Receipt image: UI included (image picker stub)
+- Expense List with date filter: implemented (UI + in-memory)
+- Report screen with 7-day mock summary: implemented (mock data)
+- Export/Share: not implemented (instructions provided)
+- Persistence (Room/Datastore): not implemented (in-memory repo used)
