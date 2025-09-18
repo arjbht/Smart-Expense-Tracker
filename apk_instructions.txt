@@ -1,0 +1,11 @@
+APK Build Instructions (local)
+This environment cannot compile Android APKs. Follow these steps locally:
+
+1. Open Android Studio.
+2. File -> New -> Import Project... and choose this folder (the module 'app' contains Gradle files).
+3. Let Gradle sync. If missing SDK, install required SDK (compileSdkVersion 34).
+4. Build -> Build Bundle(s) / APK(s) -> Build APK(s).
+5. After build, click 'locate' to find the APK at:
+   app/build/outputs/apk/debug/app-debug.apk
+
+If you'd like, I can add a GitHub Actions workflow file to auto-build the debug APK on push.
